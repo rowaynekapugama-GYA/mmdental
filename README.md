@@ -1,7 +1,8 @@
 # M&M Dental Care – Marsden Park landing page
 
-Single-file static landing page (`index.html`), all images inlined. No build step.
+Static site, no build step. Deploy the folder root on Vercel/Netlify/GitHub Pages.
 
-- Deploy on Vercel/Netlify/GitHub Pages as a static site (root = this folder).
-- Conversion hooks for GTM: `.js-call` (phone links) and `.js-book-online` (book buttons).
-- Booking form: Centaur portal iframe loads inside a modal (opened by any Book button); src is set on first open.
+- `index.html` – landing page (all images inlined)
+- `thank-you.html` – post-booking thank-you page (noindex); use as the conversion/redirect URL
+- GTM hooks: `.js-call` (phone links) and `.js-book-online` (book buttons)
+- Booking form: Centaur portal iframe loads inside a modal (opened by any Book button); src is set on first open
