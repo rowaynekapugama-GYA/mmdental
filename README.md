@@ -4,4 +4,4 @@ Single-file static landing page (`index.html`), all images inlined. No build ste
 
 - Deploy on Vercel/Netlify/GitHub Pages as a static site (root = this folder).
 - Conversion hooks for GTM: `.js-call` (phone links) and `.js-book-online` (book buttons).
-- Booking form: Centaur portal iframe in the `#book` section.
+- Booking form: Centaur portal iframe loads inside a modal (opened by any Book button); src is set on first open.
